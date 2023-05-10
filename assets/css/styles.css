@@ -834,3 +834,78 @@ a.active::after {
     display: none;
     transition: 0.25s;
 }
+
+/* Past Process */
+.past-process {
+    margin: 80px 0 80px;
+    padding-bottom: 63px;
+    background: #143c3c;
+}
+
+.past-process__row {
+    position: relative;
+    padding-top: 116px;
+    display: flex;
+    justify-content: space-between;
+}
+.past-process__title {
+    width: 457px;
+    color: #e7f9f9;
+}
+
+.past-process__row .heading-h2-line::after {
+    background-color: #83a17d;
+}
+
+.past-process__intro {
+    width: 570px;
+}
+
+.past-process__link {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.past-process__btn-cta {
+    width: 54px;
+    height: 54px;
+    border: none;
+    background: none;
+    color: #80a07b;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.past-process__video {
+    position: relative;
+    margin-top: 65px;
+    width: 100%;
+    height: 544px;
+}
+
+.past-process__play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 118px;
+    height: 118px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+}
+
+.past-process__union img:first-child {
+    position: absolute;
+    top: 150px;
+    right: -150px;
+    transform: scaleY(-1);
+    rotate: 270deg;
+    z-index: 1;
+}
+
+.past-process__union img:last-child {
+    position: absolute;
+    top: 218px;
+    right: -30px;
+}
