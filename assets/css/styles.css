@@ -1010,7 +1010,7 @@ a.active::after {
 }
 
 .blog__item:hover .blog__content {
-    padding: 0 30px 12px;
+    padding: 0 30px;
 }
 
 .blog__item:hover .blog__content span:first-of-type {
