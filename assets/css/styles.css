@@ -151,7 +151,7 @@ a {
 }
 
 .logo__icon {
-    font-size: 0.6em;
+    font-size: 0.4em;
     display: flex;
     width: 2em;
     height: 4em;
@@ -197,7 +197,7 @@ a {
 
 .logo span {
     display: inline-flex;
-    font-size: 1.6em;
+    font-size: 1.2em;
     position: relative;
 }
 
@@ -210,7 +210,7 @@ a {
     border-radius: 50%;
     background: #83a17d;
     top: 0.2em;
-    left: -1.25em;
+    left: -1.14em;
 }
 
 /* Nav */
@@ -236,6 +236,14 @@ a {
     font-size: 1.8rem;
 }
 
+.nav-bar__list li {
+    padding: 0 19px;
+}
+
+.nav-bar__list li:hover a {
+    color: #152427;
+}
+
 .nav-bar__list a {
     color: #575d5e;
 }
@@ -243,7 +251,7 @@ a {
 a.active {
     position: relative;
     color: #152427;
-    padding-bottom: 27px;
+    padding-bottom: 32px;
 }
 
 a.active::after {
@@ -253,7 +261,7 @@ a.active::after {
     width: 16px;
     height: 2px;
     background: #152427;
-    bottom: 0;
+    bottom: -0px;
     left: 0;
 }
 
@@ -560,18 +568,16 @@ a.active::after {
     width: 50%;
     height: 557px;
     position: relative;
+    display: flex;
 }
 
 .about__media::after {
-    position: absolute;
     display: inline-block;
     content: "";
     width: 591px;
-    height: 557px;
+    height: 380px;
     background: #4dbb9a;
     filter: blur(550px);
-    top: 100px;
-    left: 0;
 }
 
 .about__media--union img:first-child {
@@ -586,11 +592,6 @@ a.active::after {
     top: 0;
     left: 54px;
     z-index: 1;
-}
-
-.about__img {
-    display: flex;
-    column-gap: 21px;
 }
 
 .about__img img {
@@ -609,7 +610,7 @@ a.active::after {
 .about__img img:last-of-type {
     position: absolute;
     top: 13px;
-    right: 0;
+    right: -21px;
 }
 
 .about__team {
@@ -996,6 +997,7 @@ a.active::after {
     padding-top: 40px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .blog__title .heading-h2-line {
